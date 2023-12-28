@@ -1,0 +1,49 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0;
+}
+.con-container{
+    margin-left: -100px;
+}
+.logo-text-color{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.search{
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+}
+.cart-image{
+    width: 40px;
+    height: 40px;
+}
+.banner-text-color{
+    color: whitesmoke;
+}
+.shop-image{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.link-color{
+    color: white;
+}
+.link-text-center{
+    padding-top: 50%;
+}
+.poster-padding{
+    padding-top: 50%;
+}
+#padding-overlay{
+    padding-left: 55%;
+}
+.poster-padding-center{
+    padding-top: 35%;
+}

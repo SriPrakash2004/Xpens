@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/Selima.png">
+  <title>Xpens</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <h2 class="navbar-brand logo-text-color">Xpens</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse searchbar" id="navbarSupportedContent">
+        <form class="d-flex m-auto w-75" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><img src="./img/icon/search.png"
+              class="search"></button>
+        </form>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#shop">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#warning">Warning</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <a href="#"><img src="./img/icon/cart.png" class="cart-image img-fluid"></a>
+      </div>
+    </div>
+  </nav>
+  <section class="banner" id="home">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <div class="banner-text-color">
+            <h4 id="logo-text">Xpens</h4>
+            <h2 id="banner-content1">Ride winds</h2>
+            <h2 id="banner-content2">Touch sky</h2>
+            <p id="banner-content3">Dream. Dare. Du.,</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid">
+      <div class="row text-center py-4">
+        <div class="col-md-12">
+          <div class="text-dark">
+            <h4>Shop by category</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-1" id="shop">
+      <div class="row align-items-center">
+        <div class="col-md-3 col-sm pb-3">
+          <div class="card h-100">
+            <a href="#shop" class="link-color"><img src="./img/tshirt.png" class="card-img" alt="T-shirt">
+              <div class="card-img-overlay text-center">
+                <h5 class="card-title link-text-center">T-Shirts</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 pb-3">
+          <div class="card h-100">
+            <a href="#shop" class="link-color"><img src="./img/pant.png" class="card-img" alt="Pants">
+              <div class="card-img-overlay text-center">
+                <h5 class="card-title link-text-center">Jean's Pants</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 pb-3">
+          <div class="card h-100">
+            <a href="#shop" class="link-color"><img src="./img/shirt.png" class="card-img" alt="Shirt">
+              <div class="card-img-overlay text-center">
+                <h5 class="card-title link-text-center">Shirts</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 pb-3">
+          <div class="card h-100">
+            <a href="#shop" class="link-color"><img src="./img/short.png" class="card-img" alt="Shorts">
+              <div class="card-img-overlay text-center ">
+                <h5 class="card-title link-text-center">Shorts</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid text-uppercase">
+      <div class="row">
+        <div class="col-md-6 py-4">
+          <div class="card  h-100">
+            <img src="./img/cardtshirt.png" class="card-img" alt="T-shirt">
+            <div class="card-img-overlay text-white poster-padding">
+              <h5 class="card-title">Xpens</h5>
+              <p class="card-text">Fashion is A Crime</p>
+              <button type="btn" class="btn btn-outline-light btn-lg">Shop T-shirt</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-4">
+          <div class="card h-100">
+            <img src="./img/cardshirt.jpg" class="card-img h-100" alt="T-shirt">
+            <div class="card-img-overlay poster-padding text-white" id="padding-overlay">
+              <h5 class="card-title">Xpens</h5>
+              <p class="card-text">Wear the Xpens clothing</p>
+              <button type="btn" class="btn btn-outline-light btn-lg">Shop Shirt</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 py-4">
+          <div class="card h-100">
+            <img src="./img/cardoutfit.png" class="card-img" alt="Outfit">
+            <div class="card-img-overlay text-white poster-padding-center">
+              <h5 class="card-title">Xpens</h5>
+              <p class="card-text">Keep Moving.</p>
+              <button type="btn" class="btn btn-outline-light btn-lg">Shop now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-12 py-4">
+          <div class="pb-5">
+            <button type="btn" class="btn btn-outline-dark btn-lg text-uppercase">View all</button>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center text-bg-secondary py-3" id="warning">
+        <div class="col-md-12">
+          <div>
+            <h4>Warning</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center py-3">
+        <div class="col-md-6">
+          <div>
+            <p>For your cotton T-shirt,  polo shirts and sweatshirts,  we recommend washing in a washing machine up to 30'C/86'F on a cotton cycle with simliar colors.  And for Team Shirts and Team Sweat-Shirts,  we recommend washing them inside out ot preserve the logo.</p>
+            <p>1. Always wash white,  colored and dark shirts separately using the correct detergent.</p>
+            <p>2. Always wash the shirt inside out to avoid unnecessary wear.</p>
+            <p>3. Pay attention to the wash instructions on the label and never wash on a temperature higher then 40 degrees.</p>
+          </div>
+        </div>
+        <di class="col-md-6 text-center">
+          <div>
+            <img src="./img/label3.png" alt="Warning-Label" class="img-fluid">
+          </div>
+        </di>
+      </div>
+    </div>
+  </section>
+</section>
+<section class="text-bg-secondary py-3 text-white" id="contact">
+  <div class="container">
+    <div class="row text-center py-4">
+      <div class="col-md-12">
+        <h4 class="text-uppercase text-color">Contact</h4>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-color">Name</label>
+            <input type="text" class="form-control" id="exampleInputText1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-color">Mobile</label>
+            <input type="number" class="form-control" id="exampleInputNumber1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-color">E-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label text-color">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="py-3 text-bg-dark">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <p class="m-0">Copyright: Xpens. 𝕏</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
